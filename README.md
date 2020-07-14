@@ -1,6 +1,14 @@
 # sell
 
-> sell app
+> sell app , learned from ustbhuangyi , but i replace vue-resource with axios
+
+### 技术栈
+> * vue
+> * vue-router
+> * axios
+> * es6
+> * webpack
+> * stylus
 
 ## Build Setup
 

@@ -17,6 +17,7 @@
 </template>
 
 <script type="text/ecmascript-6">
+  import axios from 'axios';
   import header from '@/components/header/header.vue';
 
   const ERR_OK = 0;
@@ -24,7 +25,7 @@
   export default {
     name: 'app',
     created () {
-      this.$http.get('/api/seller').then((response) => {
+      axios.get('/api/seller').then((response) => {
         response = response.json();
         if (response.errno === ERR_OK) {
           console.log(11);
